@@ -20,5 +20,3 @@ If you are developing a production application, we recommed using TypeScript wit
 
 
 
-## Development Update
-
