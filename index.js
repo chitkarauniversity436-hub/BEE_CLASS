@@ -30,3 +30,9 @@ if (num > 0) {
 for (let i = 1; i <= 10; i++) {
     console.log(i);
 }
+
+const multiply = (a, b) => {
+    return a * b;
+};
+
+console.log(multiply(5, 4));
