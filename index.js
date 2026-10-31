@@ -1,11 +1,11 @@
 
-let name = "Arun";
-const age = 20;
-var city = "Delhi";
+// let name = "Arun";
+// const age = 20;
+// var city = "Delhi";
 
-console.log(name);
-console.log(age);
-console.log(city);
+// console.log(name);
+// console.log(age);
+// console.log(city);
 
 let a = 10;             // Number
 let name = "Arun";      // String
