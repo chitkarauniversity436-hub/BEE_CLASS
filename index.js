@@ -49,3 +49,10 @@ arr.pop();
 console.log(arr);
 
 
+let arr = [1, 2, 3, 4, 5];
+
+console.log(arr.map(x => x * 2));
+
+console.log(arr.filter(x => x > 2));
+
+console.log(arr.reduce((sum, x) => sum + x, 0));
