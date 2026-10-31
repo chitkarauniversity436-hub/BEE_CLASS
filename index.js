@@ -17,15 +17,15 @@ let y;                  // Undefined
 // console.log(typeof name);
 // console.log(typeof isStudent);
 
-let num = 10;
+// let num = 10;
 
-if (num > 0) {
-    console.log("Positive");
-} else if (num < 0) {
-    console.log("Negative");
-} else {
-    console.log("Zero");
-}
+// if (num > 0) {
+//     console.log("Positive");
+// } else if (num < 0) {
+//     console.log("Negative");
+// } else {
+//     console.log("Zero");
+// }
 
 for (let i = 1; i <= 10; i++) {
     console.log(i);
