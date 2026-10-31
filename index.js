@@ -56,3 +56,13 @@ console.log(arr.map(x => x * 2));
 console.log(arr.filter(x => x > 2));
 
 console.log(arr.reduce((sum, x) => sum + x, 0));
+
+
+let student = {
+    name: "Arun",
+    age: 20,
+    course: "CSE"
+};
+
+console.log(student.name);
+console.log(student.age);
