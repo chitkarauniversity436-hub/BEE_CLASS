@@ -52,11 +52,11 @@ console.log(arr);
 
 let arr = [1, 2, 3, 4, 5];
 
-console.log(arr.map(x => x * 2));
+// console.log(arr.map(x => x * 2));
 
-console.log(arr.filter(x => x > 2));
+// console.log(arr.filter(x => x > 2));
 
-console.log(arr.reduce((sum, x) => sum + x, 0));
+// console.log(arr.reduce((sum, x) => sum + x, 0));
 
 
 let student = {
@@ -65,8 +65,8 @@ let student = {
     course: "CSE"
 };
 
-console.log(student.name);
-console.log(student.age);
+// console.log(student.name);
+// console.log(student.age);
 
 
 // let arr = [10, 50, 20, 80, 30];
