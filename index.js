@@ -35,14 +35,4 @@ let y;                  // Undefined
 //     return a * b;
 // };
 
-console.log(multiply(5, 4));
 
-let arr = [10, 20, 30, 40, 50];
-
-console.log(arr[0]);
-console.log(arr.length);
-
-arr.push(60);
-arr.pop();
-
-console.log(arr);
