@@ -91,3 +91,10 @@ if (str === rev) {
 } else {
     console.log("Not Palindrome");
 }
+
+
+
+npm create vite@latest my-react-app
+cd my-react-app
+npm install
+npm run dev
