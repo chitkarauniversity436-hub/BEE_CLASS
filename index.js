@@ -127,34 +127,34 @@ if (str === rev) {
 
 
 
-import { useState } from "react";
+// import { useState } from "react";
 
-function App() {
-    const [student, setStudent] = useState({
-        name: "Arun",
-        age: 20,
-        course: "CSE"
-    });
+// function App() {
+//     const [student, setStudent] = useState({
+//         name: "Arun",
+//         age: 20,
+//         course: "CSE"
+//     });
 
-    function updateAge() {
-        setStudent({
-            ...student,
-            age: 21
-        });
-    }
+//     function updateAge() {
+//         setStudent({
+//             ...student,
+//             age: 21
+//         });
+//     }
 
-    return (
-        <div>
-            <h2>{student.name}</h2>
-            <h2>{student.age}</h2>
-            <h2>{student.course}</h2>
+//     return (
+//         <div>
+//             <h2>{student.name}</h2>
+//             <h2>{student.age}</h2>
+//             <h2>{student.course}</h2>
 
-            <button onClick={updateAge}>Update Age</button>
-        </div>
-    );
-}
+//             <button onClick={updateAge}>Update Age</button>
+//         </div>
+//     );
+// }
 
-export default App;
+// export default App;
 
 
 
