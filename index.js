@@ -112,15 +112,15 @@ export default App;
 
 
 
-function App() {
-    let name = "Arun";
+// function App() {
+//     let name = "Arun";
 
-    return (
-        <div>
-            <h1>Hello {name}</h1>
-            <p>Welcome to React</p>
-        </div>
-    );
-}
+//     return (
+//         <div>
+//             <h1>Hello {name}</h1>
+//             <p>Welcome to React</p>
+//         </div>
+//     );
+// }
 
-export default App;
+// export default App;
