@@ -163,32 +163,32 @@ export default App;
 
 
 
-import { useState } from "react";
+// import { useState } from "react";
 
-function App() {
-    const [items, setItems] = useState(["Apple", "Mango"]);
+// function App() {
+//     const [items, setItems] = useState(["Apple", "Mango"]);
 
-    function addItem() {
-        setItems([...items, "Orange"]);
-    }
+//     function addItem() {
+//         setItems([...items, "Orange"]);
+//     }
 
-    function deleteItem() {
-        setItems(items.slice(0, -1));
-    }
+//     function deleteItem() {
+//         setItems(items.slice(0, -1));
+//     }
 
-    return (
-        <div>
-            {items.map((item, index) => (
-                <h3 key={index}>{item}</h3>
-            ))}
+//     return (
+//         <div>
+//             {items.map((item, index) => (
+//                 <h3 key={index}>{item}</h3>
+//             ))}
 
-            <button onClick={addItem}>Add</button>
-            <button onClick={deleteItem}>Delete Last</button>
-        </div>
-    );
-}
+//             <button onClick={addItem}>Add</button>
+//             <button onClick={deleteItem}>Delete Last</button>
+//         </div>
+//     );
+// }
 
-export default App;
+// export default App;
 
 
 
